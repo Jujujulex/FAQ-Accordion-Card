@@ -123,10 +123,11 @@ details[open] summary {
   color: #fff;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
   .container {
     display: block;
-    margin-top: 40%;
+    margin-top: 50%;
+    padding-bottom: 5%;
   }
   .picture-box {
     overflow: visible;
@@ -138,7 +139,7 @@ details[open] summary {
     max-height: 35vh;
     width: 80%;
     position: absolute;
-    top: -35%;
+    top: -30%;
     left: 2.2rem;
     bottom: 8.2rem;
   }
@@ -146,9 +147,12 @@ details[open] summary {
   .box {
     display: none;
   }
+  h1 {
+    margin: 0;
+  }
   .faq-box {
-    max-width: 100%;
-    padding-top: 20%;
+    max-width: 19rem;
+    padding-top: 30%;
   }
   .prefered-picture {
     background-image: none;
